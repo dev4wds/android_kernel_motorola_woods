@@ -1,12 +1,12 @@
-NAME ?= Jennie.N7x_woods
+NAME ?= Jennie.Oreo8.x_woods
 
-VERSION ?= 7.x
+VERSION ?= Oreo8.x
 
 DATE := $(shell date +'%Y%m%d-%H%M')
 
 ZIP := $(NAME)-$(VERSION)-$(DATE).zip
 
-EXCLUDE := Makefile README.md *.git* Jennie.N7x_woods*.zip *sha1
+EXCLUDE := Makefile README.md *.git* Jennie.Oreo8.x_woods*.zip *sha1
 
 all: $(ZIP)
 
