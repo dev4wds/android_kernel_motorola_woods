@@ -799,3 +799,4 @@ void binder_alloc_init(struct binder_alloc *alloc)
 	alloc->pid = current->group_leader->pid;
 	mutex_init(&alloc->mutex);
 }
+
